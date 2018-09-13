@@ -8,7 +8,7 @@
 
 abstract class AbstractFigure
 {
-    abstract protected function getData(float $a,float $b);
+     abstract protected function getData(float $a,float $b);
 
-    abstract public function getInfo();
+     abstract public function getInfo();
 }

@@ -8,5 +8,5 @@
 
 interface AreaInterface
 {
- public function area($a);
+    public function area($a);
 }

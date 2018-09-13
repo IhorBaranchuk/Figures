@@ -24,14 +24,15 @@ class BrokenLine extends MultilateralAbstractFigure
         $this->line();
     }
 
-    protected function getData(array $x, array $y)
-    {
+   
+     protected function getData(array $x, array $y)
+     {
         for ($this->i = 0; $this->i < count($x); $this->i++) {
             $this->x[$this->i] = $x[$this->i];
             $this->y[$this->i] = $y[$this->i];
-        }
+         }
 
-    }
+     }
 
     protected function line()
     {
