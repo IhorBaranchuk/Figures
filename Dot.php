@@ -6,7 +6,7 @@
  * Time: 18:17
  */
 include_once "AbstractFigure.php";
-
+ 
 class Dot extends AbstractFigure
 {
     protected $name = "Точка";
